@@ -1,9 +1,11 @@
 # StillMind — Screenshot Copy (iPhone, N=5)
 
-Layout: **panorama** — one continuous dark charcoal → warm amber-glow background and a
-consistent headline band flow across all 5 frames; each phone mockup sits beneath its headline.
-Palette: near-black charcoal `#15110D`, warm tan/gold accent `#D9A066`, white headlines.
-Emphasis word per headline rendered in the gold accent.
+Layout: **independent-shared-palette** (the corpus norm) — each frame is a self-contained ad
+unified by ONE locked palette: near-black charcoal `#15110D`, warm tan/gold accent `#D9A066`,
+white headlines. Each headline has one emphasis word in the gold accent.
+Pipeline: **single-pass strip** — all 5 real screenshots sent in ONE `openai/gpt-image-2/edit`
+call (Method A), producing one connected wide strip on a locked grid (real UI preserved, realistic
+iPhone bezel, clean 9:41 status bar, charcoal+glow background), then sliced into 5 exact frames.
 
 Converting sequence: Pain → Shift → Proof (emotional) → Delivery → Delivery.
 

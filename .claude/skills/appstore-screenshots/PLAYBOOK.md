@@ -51,20 +51,10 @@ are models for each.)
 - **Concrete numbers inside the UI** beat empty states — show real $ amounts, step counts, calories,
   refunds, not zeroed placeholders.
 
-## Visual patterns (render guidance for Step 4)
+## Visual patterns
 
-Distilled across ~68 closely-read sets — fold these into the gpt-image-2 prompt:
-
-- **One brand palette across ALL frames** — usually a single saturated background color, high-contrast
-  headline. Color carries continuity even in "independent" layouts.
-- **Headline in the top ~25–30%**, the device/UI beneath it as proof (the dominant pattern).
-- **Emphasize one word** in an accent color or italic: "Meet *new* people offline" · "Bye bye
-  *boredom*" · "your best *great* meal".
-- **Mockup style by category**: flat UI on a color field for productivity/finance; hands-holding-phone
-  or a lifestyle photo behind the device for social/dating/consumer/lifestyle.
-- **Human touches**: handwritten annotations and arrows ("planned!", "start now!", "Done!") make a set
-  feel personal rather than corporate.
-- **Big bold sans-serif headlines**; subheads small and secondary, one line.
+The full design spec — ranked patterns, composition archetypes, render rules — lives in
+[REFERENCE.md](REFERENCE.md). This playbook is about the **words**; that file is about the **frame**.
 
 ## Study the corpus before writing
 
